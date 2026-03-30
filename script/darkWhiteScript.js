@@ -22,6 +22,6 @@ btn.addEventListener('click', () => {
 
 // Función para cambiar el texto o icono del botón
 function actualizarBoton(theme) {
-    btn.innerText = theme === 'dark' ? 'Modo Claro' : 'Modo Oscuro';
+    btn.innerText = theme === 'dark' ? 'Light Mode' : 'Dark Mode';
 }
 
